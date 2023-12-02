@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>form</title>
+	</head>
+
+	<body>
+		<div>
+			<h1>Form for the server</h1>
+
+			<form id="form">
+				<label for="username">Username: </label>
+				<input type="text" placeholder="Enter your discord username..."><br>
+				<label for="main-interest">What would you most like to do.</label><br>
+				<select name="role">
+					<option value="info-gatherer">Info gatherer</option>
+					<option value="typer">Typologist</option>
+					<option value="improver">Improver</option>
+				</select>
+				<br>
+				<label>Known typology systems 
+					<small>(Check all that apply)</small></label><br>
+				<!-- Input checkbox -->
+				<label for="opt-1">
+					<input type="checkbox" name="opt">MBTI</input></label><br>
+				<label for="opt-2">
+					<input type="checkbox" name="opt">Enneagram</input></label><br>
+				<label for="opt-3"><br>
+					<input type="checkbox" name="opt">Socionics</input></label><br>
+				<label for="opt-4">
+					<input type="checkbox" name="opt">Attitudinal Psyche</input></label><br>
+				<label for="opt-5">
+					<input type="checkbox" name="opt">CPT</input></label><br>
+				<label for="opt-6">
+					<input type="checkbox" name="opt">4SD</input></label><br>
+
+				<button type="submit" value="submit">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
